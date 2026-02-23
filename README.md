@@ -1,6 +1,6 @@
 # ExpNo 1 :Developing AI Agent with PEAS Description
-## Name: GURU RAGHAV PONJEEVITH V
-## Register Number:212223220027
+## Name: SHAABIN R S
+## Register Number:212224230259
 ## AIM:
 
 To find the PEAS description for the given AI problem and develop an AI agent.
