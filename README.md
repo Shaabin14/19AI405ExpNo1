@@ -1,25 +1,36 @@
-ExpNo 1 :Developing AI Agent with PEAS Description
-Name: SHAABIN R S
-Register Number:212224230259
-AIM:
+# ExpNo 1 :Developing AI Agent with PEAS Description
+## Name: GURU RAGHAV PONJEEVITH V
+## Register Number:212223220027
+## AIM:
+
 To find the PEAS description for the given AI problem and develop an AI agent.
 
-Theory
-Medicine prescribing agent:
+
+## Theory
+## Medicine prescribing agent:
 Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.
 
-PEAS DESCRIPTION: Agent Type Performance Environment Actuators Sensors Medicine prescribing agent Treating unhealthy, agent movement Rooms, Patient Medicine, Treatment Location, Temperature of patient DESIGN STEPS STEP 1:Identifying the input: Temperature from patients, Location.
+PEAS DESCRIPTION:
+Agent Type	Performance	Environment	Actuators	Sensors
+Medicine prescribing agent	Treating unhealthy, agent movement	Rooms, Patient	Medicine, Treatment	Location, Temperature of patient
+DESIGN STEPS
+STEP 1:Identifying the input:
+Temperature from patients, Location.
 
-STEP 2:Identifying the output: Prescribe medicine if the patient in a random has a fever.
+STEP 2:Identifying the output:
+Prescribe medicine if the patient in a random has a fever.
 
-STEP 3:Developing the PEAS description: PEAS description is developed by the performance, environment, actuators, and sensors in an agent.
+STEP 3:Developing the PEAS description:
+PEAS description is developed by the performance, environment, actuators, and sensors in an agent.
 
-STEP 4:Implementing the AI agent: Treat unhealthy patients in each room. And check for the unhealthy patients in random room
+STEP 4:Implementing the AI agent:
+Treat unhealthy patients in each room. And check for the unhealthy patients in random room
 
-STEP 5: Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented
+STEP 5:
+Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented
 
 program:
-
+```py
 import random
 
 class HealthMonitoringAgent:
@@ -70,8 +81,8 @@ if __name__ == "__main__":
     health_monitoring_agent.actuators = health_actuators
     
     health_monitoring_agent.monitor_health()
-Output:
+```
+## Output:
 ![image](https://github.com/user-attachments/assets/5d77cbc4-8257-4bad-b24b-e3680e979b06)
-
-Result :
+## Result :
 Thus the code is executed successfully
